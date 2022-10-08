@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    width:100%;
+    background:black;
+    position :relative;
+    text-align: center;
+    padding: 15px 30px;
+
+}
+nav .icon{
+    font-size: 35px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+nav ol li{
+    margin:0 20px;   
+    
+}
+nav ol li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    
+}
+nav .search-box{
+    padding: 15px 30px;
+}

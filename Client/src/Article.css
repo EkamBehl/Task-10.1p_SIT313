@@ -1,0 +1,90 @@
+
+
+.listTitle{
+    text-align: center;
+    font-weight: bold;
+    
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+
+}
+.container .heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.container .box-container .box{
+    background-color: white;
+    padding:20px;
+    border-radius: 5px;
+    box-shadow:0 px 10px rgba(0,0,0,.2);
+    display: none;
+    
+}
+.container .box-container .box:nth-child(1),
+.container .box-container .box:nth-child(2),
+.container .box-container .box:nth-child(3){
+    display:inline-block;
+}
+.box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 20px;
+}
+.container .box-container .box{
+
+    background-color: azure;
+}
+.box .image{
+    
+    border-radius: 5px;
+    height: 250px;
+    margin-bottom:20px ;
+    overflow:hidden;
+}
+.box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box .content p{
+    font-size: 20px;
+    line-height:2;
+    padding: 10px 0px;
+}
+.box .content .icons{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+.box .content .icons span{
+    font-size: 20px;
+    align-items: left;
+    padding-right: 150px;
+}
+.box .content .icons{
+    font-size: 14px;
+}
+#load-more{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    border:1px solid black;
+    font-size: 16px;
+    background-color: white;
+    cursor:pointer;
+    
+}
+.loadMoreButton{
+    padding-left: 50%;
+}
+#load-more:hover{
+    background-color: cyan;
+    color:white
+}
